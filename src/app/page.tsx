@@ -12,12 +12,12 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100">
             Bienvenue sur mon portfolio!
           </h1>
-          <p className="text-lg text-gray-700 dark:text-gray-300">
+          <h2 className="text-lg text-gray-700 dark:text-gray-300">
             Je suis un développeur web, j&apos;aime créer et rendre fonctionnel
             des sites web. Imaginer et concevoir des pages web est intéressant
             et passionnant. Le back et le front sont deux parties intéressantes
             que j&apos;apprécie.
-          </p>
+          </h2>
           <div className="grid gap-6 md:grid-cols-3">
             <Card>
               <CardHeader>

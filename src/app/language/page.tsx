@@ -21,9 +21,9 @@ export default function Langage() {
           <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100">
             Langages que j&apos;utilise
           </h1>
-          <p className="text-lg text-gray-700 dark:text-gray-300">
+          <h2 className="text-lg text-gray-700 dark:text-gray-300">
             Ceci est une liste non exhaustive.
-          </p>
+          </h2>
           <div className="grid gap-6 md:grid-cols-5">
             <Card>
               <CardHeader>
