@@ -13,7 +13,10 @@ export default function Home() {
             Bienvenue sur mon portfolio!
           </h1>
           <p className="text-lg text-gray-700 dark:text-gray-300">
-            Bonjour c&apos;est moi
+            Je suis un développeur web, j&apos;aime créer et rendre fonctionnel
+            des sites web. Imaginer et concevoir des pages web est intéressant
+            et passionnant. Le back et le front sont deux parties intéressantes
+            que j&apos;apprécie.
           </p>
           <div className="grid gap-6 md:grid-cols-3">
             <Card>
@@ -21,7 +24,9 @@ export default function Home() {
                 <CardTitle>A propos</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-700 dark:text-gray-300">J&apos;ai 20 ans</p>
+                <p className="text-gray-700 dark:text-gray-300">
+                  J&apos;ai beaucoup de chose à dire
+                </p>
                 <Button className="mt-4">
                   <Link href="/about">Savoir plus</Link>
                 </Button>
@@ -32,7 +37,9 @@ export default function Home() {
                 <CardTitle>Langage</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-700 dark:text-gray-300">Les technos</p>
+                <p className="text-gray-700 dark:text-gray-300">
+                  J&apos;ai appris beaucoup de langages différents
+                </p>
                 <Button className="mt-4">
                   <Link href="/language">Savoir plus</Link>
                 </Button>
@@ -43,7 +50,9 @@ export default function Home() {
                 <CardTitle>Projets</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-700 dark:text-gray-300">Des projets</p>
+                <p className="text-gray-700 dark:text-gray-300">
+                  J&apos;ai réaliser beaucoup de projets différents
+                </p>
                 <Button className="mt-4">
                   <Link href="/project">Savoir plus</Link>
                 </Button>

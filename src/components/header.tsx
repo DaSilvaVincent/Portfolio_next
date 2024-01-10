@@ -6,10 +6,10 @@ export default function Header() {
   return (
     <header className="w-full h-16 flex items-center justify-between px-4 bg-white dark:bg-gray-800 shadow-md">
       <div className="flex items-center gap-4">
-        <img
+        <Image
           alt="Profile"
           className="w-14 h-14 rounded-full"
-          src="../../public/image/moi.jpg"
+          src={Vincent}
           style={{
             aspectRatio: "50/50",
             objectFit: "cover",

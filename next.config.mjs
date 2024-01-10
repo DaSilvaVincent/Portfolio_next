@@ -13,6 +13,9 @@ const config = {
   reactStrictMode: true,
   assetPrefix,
   basePath,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default config;
